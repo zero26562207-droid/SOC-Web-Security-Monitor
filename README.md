@@ -5,23 +5,24 @@
 ![Dashboard](dashboard.png)
 
 # 🔍 威脅分析與事件應變 (Threat Analysis & Incident Response)
-
-![Analysis Diagram](analysis.png)
-
 ### 🌟 核心分析功能
+
 - **Payload 深度解碼**：自動解碼 URL Encoding 特徵，還原原始攻擊語法。
 - **即時修補建議**：針對 SQLi、XSS 與 Path Traversal 提供藍隊應變措施 (Remediation Advice)。
 
+![Analysis Diagram](analysis.png)
+
+
 # ⚙️ 動態連線設定與參數持久化 (Dynamic Connection Settings)
-
-支援在介面運行時動態調整遠端靶機資訊，並將設定自動持久化儲存至本地組態檔：
-
-![Connection Settings](connection.png)
 
 ### 🌟 連線模組特色
 - **彈性參數配置**：支援動態修改靶機 IP、SSH Port、帳號密碼與 Log 檔案路徑（預設 `/var/log/apache2/access.log`）。
 - **輪詢頻率調整**：可彈性自訂背景 Polling 間隔時間（預設 2 秒）。
 - **自動化組態管理**：連線設定會自動載入/寫入本地 `settings.json`，提升軟體重用性。
+
+支援在介面運行時動態調整遠端靶機資訊，並將設定自動持久化儲存至本地組態檔：
+
+![Connection Settings](connection.png)
 
 
 \## 🌟 系統亮點
