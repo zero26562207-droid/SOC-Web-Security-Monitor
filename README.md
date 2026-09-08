@@ -1,6 +1,6 @@
 \# 🛡️ SOC Web Security Monitoring GUI
 ![SOC Web Security Monitoring GUI](dashboard.png)
-
+![SOC Web Security Monitoring GUI](analysis.png)
 
 
 一個採用簡易的SOC（安全運營中心）Web 日誌即時監控與威脅分析系統。
