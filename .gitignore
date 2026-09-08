@@ -1,0 +1,15 @@
+# 1. 敏感設定檔（含 SSH 密碼與靶機 IP）
+settings.json
+
+# 2. 本地 SQLite 資料庫 (若有使用)
+*.db
+*.sqlite3
+
+# 3. Python 快取與編譯檔
+__pycache__/
+*.pyc
+*.pyo
+
+# 4. 編輯器配置
+.vscode/
+.idea/
