@@ -12,7 +12,7 @@
 - **Payload 深度解碼**：自動解碼 URL Encoding 特徵，還原原始攻擊語法。
 - **即時修補建議**：針對 SQLi、XSS 與 Path Traversal 提供藍隊應變措施 (Remediation Advice)。
 
-- ## ⚙️ 動態連線設定與參數持久化 (Dynamic Connection Settings)
+# ⚙️ 動態連線設定與參數持久化 (Dynamic Connection Settings)
 
 支援在介面運行時動態調整遠端靶機資訊，並將設定自動持久化儲存至本地組態檔：
 
