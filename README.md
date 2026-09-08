@@ -1,4 +1,5 @@
 \# 🛡️ SOC Web Security Monitoring GUI
+![SOC Web Security Monitoring GUI](dashboard.png)
 
 
 
