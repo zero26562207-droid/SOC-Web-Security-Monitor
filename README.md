@@ -1,10 +1,16 @@
-\# 🛡️ SOC Web Security Monitoring GUI
-![SOC Web Security Monitoring GUI](dashboard.png)
-![SOC Web Security Monitoring GUI](analysis.png)
+# 🛡️ SOC Web Security Monitoring GUI
 
+一個簡易的 SOC（安全運營中心）Web 日誌即時監控與威脅分析系統。
 
-一個採用簡易的SOC（安全運營中心）Web 日誌即時監控與威脅分析系統。
+![Dashboard](dashboard.png)
 
+## 🔍 威脅分析與事件應變 (Threat Analysis & Incident Response)
+
+![Analysis Diagram](analysis.png)
+
+### 🌟 核心分析功能
+- **Payload 深度解碼**：自動解碼 URL Encoding 特徵，還原原始攻擊語法。
+- **即時修補建議**：針對 SQLi、XSS 與 Path Traversal 提供藍隊應變措施 (Remediation Advice)。
 
 
 \## 🌟 系統亮點
